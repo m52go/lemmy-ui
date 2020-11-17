@@ -274,6 +274,7 @@ export class PostListing extends Component<PostListingProps, PostListingState> {
     return (
       <ul class="list-inline mb-1 text-muted small">
         <li className="list-inline-item">
+          by{' '}
           <UserListing
             user={{
               name: post.creator_name,
@@ -285,7 +286,6 @@ export class PostListing extends Component<PostListingProps, PostListingState> {
               published: post.creator_published,
             }}
           />
-
           {this.isMod && (
             <span className="mx-1 badge badge-light">{i18n.t('mod')}</span>
           )}
@@ -295,7 +295,7 @@ export class PostListing extends Component<PostListingProps, PostListingState> {
           {(post.banned_from_community || post.banned) && (
             <span className="mx-1 badge badge-danger">{i18n.t('banned')}</span>
           )}
-          {this.props.showCommunity && (
+          {/*{this.props.showCommunity && (
             <span>
               <span class="mx-1"> {i18n.t('to')} </span>
               <CommunityLink
@@ -308,7 +308,7 @@ export class PostListing extends Component<PostListingProps, PostListingState> {
                 }}
               />
             </span>
-          )}
+          )}*/}
         </li>
         <li className="list-inline-item">•</li>
         {post.url && !(hostname(post.url) == externalHost) && (
