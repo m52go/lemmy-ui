@@ -38,11 +38,11 @@ export class PostListings extends Component<PostListingsProps, any> {
         ) : (
           <>
             <div>{i18n.t('no_posts')}</div>
-            {this.props.showCommunity !== undefined && (
+            {/*{this.props.showCommunity !== undefined && (
               <T i18nKey="subscribe_to_communities">
                 #<Link to="/communities">#</Link>
               </T>
-            )}
+            )}*/}
           </>
         )}
       </div>
