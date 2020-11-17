@@ -42,17 +42,17 @@ export const routes: IRoutePropsWithFetch[] = [
     component: CreatePost,
     fetchInitialData: req => CreatePost.fetchInitialData(req),
   },
-  {
+  /*{
     path: `/create_community`,
     component: CreateCommunity,
     fetchInitialData: req => CreateCommunity.fetchInitialData(req),
-  },
+  },*/
   {
     path: `/create_private_message/recipient/:recipient_id`,
     component: CreatePrivateMessage,
     fetchInitialData: req => CreatePrivateMessage.fetchInitialData(req),
   },
-  {
+  /*{
     path: `/communities/page/:page`,
     component: Communities,
     fetchInitialData: req => Communities.fetchInitialData(req),
@@ -61,7 +61,7 @@ export const routes: IRoutePropsWithFetch[] = [
     path: `/communities`,
     component: Communities,
     fetchInitialData: req => Communities.fetchInitialData(req),
-  },
+  },*/
   {
     path: `/post/:id/comment/:comment_id`,
     component: Post,
@@ -77,11 +77,11 @@ export const routes: IRoutePropsWithFetch[] = [
     component: Community,
     fetchInitialData: req => Community.fetchInitialData(req),
   },
-  {
+  /*{
     path: `/community/:id`,
     component: Community,
     fetchInitialData: req => Community.fetchInitialData(req),
-  },
+  },*/
   {
     path: `/c/:name`,
     component: Community,
