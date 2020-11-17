@@ -114,14 +114,11 @@ export const languages = [
 ];
 
 export const themes = [
-  'litera',
-  'materia',
   'minty',
   'solar',
   'united',
   'cyborg',
   'darkly',
-  'journal',
   'sketchy',
   'vaporwave',
   'vaporwave-dark',
