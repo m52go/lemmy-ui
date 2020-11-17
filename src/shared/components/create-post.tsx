@@ -114,7 +114,7 @@ export class CreatePost extends Component<any, CreatePostState> {
     let urlParams = new URLSearchParams(this.props.location.search);
     let params: PostFormParams = {
       name: urlParams.get('title'),
-      community: urlParams.get('community') || this.prevCommunityName,
+      community: 'main',
       body: urlParams.get('body'),
       url: urlParams.get('url'),
     };

@@ -285,7 +285,7 @@ export class PostForm extends Component<PostFormProps, PostFormState> {
               />
             </div>
           </div>
-          {!this.props.post && (
+          {/*{!this.props.post && (
             <div class="form-group row">
               <label class="col-sm-2 col-form-label" htmlFor="post-community">
                 {i18n.t('community')}
@@ -308,7 +308,7 @@ export class PostForm extends Component<PostFormProps, PostFormState> {
                 </select>
               </div>
             </div>
-          )}
+          )}*/}
           {this.props.enableNsfw && (
             <div class="form-group row">
               <div class="col-sm-10">
