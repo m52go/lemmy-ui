@@ -258,7 +258,7 @@ export class Main extends Component<any, MainState> {
         />
         {this.state.siteRes.site && (
           <div class="row">
-            <main role="main" class="col-12 col-md-8">
+            <main role="main" class="col-12 col-md-12">
               {this.posts()}
             </main>
             {/*<aside class="col-12 col-md-4">{this.mySidebar()}</aside>*/}
