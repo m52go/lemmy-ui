@@ -209,7 +209,7 @@ export class Navbar extends Component<NavbarProps, NavbarState> {
             className={`${!this.state.expanded && 'collapse'} navbar-collapse`}
           >
             <ul class="navbar-nav my-2 mr-auto">
-              <li class="nav-item">
+              {/*<li class="nav-item">
                 <Link
                   className="nav-link"
                   to="/communities"
@@ -217,7 +217,7 @@ export class Navbar extends Component<NavbarProps, NavbarState> {
                 >
                   {i18n.t('communities')}
                 </Link>
-              </li>
+              </li>*/}
               <li class="nav-item">
                 <Link
                   className="nav-link"
@@ -231,6 +231,15 @@ export class Navbar extends Component<NavbarProps, NavbarState> {
                 </Link>
               </li>
               <li class="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://100millionbooks.org/hystoria"
+                  title="About This Site"
+                >
+                  About This Site
+                </a>
+              </li>
+              {/*<li class="nav-item">
                 <Link
                   className="nav-link"
                   to="/create_community"
@@ -238,7 +247,7 @@ export class Navbar extends Component<NavbarProps, NavbarState> {
                 >
                   {i18n.t('create_community')}
                 </Link>
-              </li>
+              </li>*/}
             </ul>
             <ul class="navbar-nav my-2">
               {this.canAdmin && (
