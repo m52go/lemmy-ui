@@ -532,8 +532,8 @@ export class Main extends Component<any, MainState> {
 
   selects() {
     return (
-      <div className="mb-3">
-        <span class="mr-3">
+      <div className="mb-3" style="text-align: center;">
+        {/*<span class="mr-3">
           <DataTypeSelect
             type_={this.state.dataType}
             onChange={this.handleDataTypeChange}
@@ -545,7 +545,7 @@ export class Main extends Component<any, MainState> {
             showLocal={this.showLocal}
             onChange={this.handleListingTypeChange}
           />
-        </span>
+        </span>*/}
         <span class="mr-2">
           <SortSelect sort={this.state.sort} onChange={this.handleSortChange} />
         </span>

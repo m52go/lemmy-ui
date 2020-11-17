@@ -39,7 +39,7 @@ export class ListingTypeSelect extends Component<
   render() {
     return (
       <div class="btn-group btn-group-toggle flex-wrap mb-2">
-        <label
+        {/*<label
           className={`btn btn-outline-secondary 
             ${this.state.type_ == ListingType.Subscribed && 'active'}
             ${UserService.Instance.user == undefined ? 'disabled' : 'pointer'}
@@ -87,7 +87,7 @@ export class ListingTypeSelect extends Component<
             onChange={linkEvent(this, this.handleTypeChange)}
           />
           {i18n.t('all')}
-        </label>
+        </label>*/}
       </div>
     );
   }

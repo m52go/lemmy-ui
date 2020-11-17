@@ -62,9 +62,9 @@ export class SortSelect extends Component<SortSelectProps, SortSelectState> {
           rel="noopener"
           title={i18n.t('sorting_help')}
         >
-          <svg class={`icon icon-inline`}>
+          {/*<svg class={`icon icon-inline`}>
             <use xlinkHref="#icon-help-circle"></use>
-          </svg>
+          </svg>*/}
         </a>
       </>
     );
