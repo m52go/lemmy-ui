@@ -297,8 +297,8 @@ export class User extends Component<any, UserState> {
             {!this.state.loading && (
               <div class="col-12 col-md-4">
                 {this.isCurrentUser && this.userSettings()}
-                {this.moderates()}
-                {this.follows()}
+                {/*{this.moderates()}
+                {this.follows()}*/}
               </div>
             )}
           </div>
