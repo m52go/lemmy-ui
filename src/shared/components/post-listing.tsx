@@ -651,7 +651,7 @@ export class PostListing extends Component<PostListingProps, PostListingState> {
                 </button>
               )}
               <Link
-                className="btn btn-link btn-animate text-muted py-0"
+                className="btn btn-link btn-animate text-muted py-0 hyst-hide"
                 to={`/create_post${this.crossPostParams}`}
                 title={i18n.t('cross_post')}
               >

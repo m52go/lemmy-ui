@@ -319,3 +319,11 @@ cursor: default; }
 .tribute-container .menu-highlighted {
   font-weight: bold; 
 }
+
+/**************************
+hystoria custom
+**************************/
+
+.hyst-hide {
+    display: none !important;
+}
