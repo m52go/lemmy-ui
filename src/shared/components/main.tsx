@@ -491,6 +491,14 @@ export class Main extends Component<any, MainState> {
   posts() {
     return (
       <div class="main-content-wrapper">
+        <p id="site-announcement">
+          Here we beat the hysteria of the present by rediscovering the past—all
+          items posted here must be at least 5 years old.
+          <br />
+          <a href="https://100millionbooks.org/blog/news/introducing-hystoria/">
+            See details »
+          </a>
+        </p>
         {this.state.loading ? (
           <h5>
             <svg class="icon icon-spinner spin">
