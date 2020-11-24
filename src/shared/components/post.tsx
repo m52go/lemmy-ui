@@ -254,7 +254,7 @@ export class Post extends Component<any, PostState> {
               {this.state.commentViewType == CommentViewType.Chat &&
                 this.commentsFlat()}
             </div>
-            <div class="col-12 col-sm-12 col-md-4">{this.sidebar()}</div>
+            {/*<div class="col-12 col-sm-12 col-md-4">{this.sidebar()}</div>*/}
           </div>
         )}
       </div>
