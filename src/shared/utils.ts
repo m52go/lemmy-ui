@@ -113,18 +113,7 @@ export const languages = [
   { code: 'it', name: 'Italiano' },
 ];
 
-export const themes = [
-  'minty',
-  'solar',
-  'united',
-  'cyborg',
-  'darkly',
-  'sketchy',
-  'vaporwave',
-  'vaporwave-dark',
-  'i386',
-  'litely',
-];
+export const themes = ['darkly', 'litely'];
 
 const DEFAULT_ALPHABET =
   'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
